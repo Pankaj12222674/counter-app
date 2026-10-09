@@ -1,16 +1,63 @@
-# React + Vite
+# Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight React counter application built with Vite. It demonstrates React state management and event handling through increment, decrement, and reset controls.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Increment the counter up to 100
+- Decrement the counter down to 0
+- Reset the counter to zero
+- Display the current count in the interface
+- Show a message when either boundary is reached
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript (ES6+)
+- Vite
+- CSS
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+Install a current LTS version of [Node.js](https://nodejs.org/) and npm.
+
+### Installation
+
+```bash
+git clone https://github.com/Pankaj12222674/counter-app.git
+cd counter-app
+npm install
+npm run dev
+```
+
+Open the local URL printed by Vite in your terminal (usually `http://localhost:5173`).
+
+### Production Build
+
+```bash
+npm run build
+npm run preview
+```
+
+## Concepts Demonstrated
+
+- React's `useState` hook
+- Handling click events
+- Conditional logic and boundary validation
+- Reusable development workflow with Vite
+
+## Future Improvements
+
+- Add keyboard controls
+- Add unit tests for counter boundaries
+- Improve accessibility and responsive styling
+
+## Author
+
+**Pankaj Kumar** — [GitHub profile](https://github.com/Pankaj12222674)
+
+---
+
+This project is intended for learning and demonstrating React fundamentals.
